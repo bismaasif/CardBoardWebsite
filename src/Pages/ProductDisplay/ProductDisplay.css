@@ -1,0 +1,118 @@
+
+.container{
+    
+    display:grid;
+    height:100vh;
+    width:100vw;
+grid-template-columns: 10fr 20fr 20fr 10fr;
+grid-template-rows: 33fr 5fr 33fr 5fr 33fr ;
+grid-template-areas: ". col1 col2 ."
+                    ". . . ."
+                     ". col3 col4 ."
+                     ". . . ."
+                     ". col5 col6 .";
+/* background-color:rgb(185, 169, 169); */
+background-size: cover;
+
+
+
+                    
+}
+
+
+.img1{
+    grid-area: col1;
+    background-size:100% 100%,cover;
+    overflow:hidden;
+  
+    /* background-image: url("E:/cardboardwebsite/client/src/Images/burger.jpg"); */
+
+}
+.img{
+    background-size: 100% 100%,cover;
+    width: 100%;
+    height:100%;
+    cursor: pointer;
+    
+}
+.para1{
+    grid-area: col2;
+}
+.img2{
+    grid-area: col4;
+    overflow:hidden;
+    background-size: 100% 100% ,cover;
+}
+.para2{
+    grid-area:col3;
+}
+.img3{
+    grid-area:col5;
+    background-size: 100% 100% ,cover;
+    overflow:hidden;
+}
+.para3{
+    grid-area:col6;
+}
+.container2{
+    height: 30vh;
+    background-color:rgb(165, 79, 79);
+    color: black;
+}
+/* .cont1{
+    height: 30vh;
+    background-color: aquamarine;
+    width: 100%;
+    
+} */
+.cont1{
+    display:"none";
+    
+ 
+    display:grid;
+    height:80vh;
+    width:100vw;
+grid-template-columns: 10fr 20fr 20fr 10fr;
+grid-template-rows: 33fr 5fr 33fr 5fr 33fr ;
+grid-template-areas: ". col7 col8 ."
+                    ". . . ."
+                     ". col9 col10 ."
+                     ". . . ."
+                     ". col11 col12 .";
+/* background-color:rgb(185, 169, 169); */
+background-size: cover;
+}
+.i1{
+    grid-area:col8;
+    background-size:100% 100%,cover;
+    overflow:hidden;
+}
+.i2{
+    grid-area:col9;
+    background-size:100% 100%,cover;
+    overflow:hidden;
+}
+.i3{
+    grid-area:col12;
+    background-size:100% 100%,cover;
+    overflow:hidden;
+}
+.p1
+{
+    grid-area: col7;
+}
+.p2{
+    grid-area:col11;
+}
+.p3{
+    grid-area:col10;
+}
+.imgagee{
+    background-size: 100% 100%,cover;
+    width: 100%;
+    height:100%;
+    cursor: pointer;
+}
+#cont{
+    display: none;
+}

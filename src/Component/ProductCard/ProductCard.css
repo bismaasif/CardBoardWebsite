@@ -1,0 +1,252 @@
+.product_card{
+    width:27em;
+    /* padding-left:2em;
+    padding-right:2em; */
+    /* border-radius:2em; */
+    margin-right: 30px;
+    margin-left: 30px;
+    /* background: rgb(111, 11, 23); */
+    margin-top:1em;
+    box-shadow: 2px 5px 5px 5px rgb(27, 26, 26);
+    margin-top:6%;
+ background-color:rgb(211, 178, 178);
+
+
+}
+.product_card_image{
+    width:28em;
+    height: 13em;
+    align-items:center;
+    /* background: url(`http://deeefoobackend.herokuapp.com/api/img/${Name}.jpg`); */
+    margin-bottom: 1em;
+
+    background-size:100% 100% , cover;
+    /* box-shadow: 1px 1px 1px 1px rgb(212, 193, 16); */
+    /* margin-top: 6px; */
+    /* margin-right:6px; */
+    transition: 1s ease;
+    overflow:hidden;
+ 
+}
+.cover{
+    width:28em;
+    height:14em;
+    overflow: hidden;
+    background-size: 100% 100%,cover;
+    
+}
+.head{
+    align-items: flex-start;
+    justify-content:flex-start;
+    display:grid;
+    margin-top: -1%;
+    /* background:rgb(156, 44, 57); */
+    /* border-radius: 2em; */
+    color:white;
+    align-self:flex-start;
+    font-size:20px;
+    padding:3px;
+    width: 100%;
+    margin-left: 7px;
+    
+    
+   
+    
+    
+}
+.cost{
+    align-items: center;
+    justify-content:center;
+    display:grid;
+    
+}
+.col{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+.product_card_image:hover{
+  
+    cursor: pointer;
+    /* -webkit-transform: scale(0.8);
+-ms-transform: scale(0.8);
+transform: scale(0.8);
+transition: 1s ease; */
+
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+transition: 1s ease;
+
+}
+
+
+      @media (max-width: 1077px){
+        .product_card{
+            
+            /* box-shadow: 1px 1px 1px 1px yellow; */
+           justify-content: center;
+           align-items: center;
+           margin-left: 15%;
+           
+           margin-right: 10%;
+        
+        width:19em;
+          
+    
+         
+        }
+        .product_card_image{
+            height:90px;
+            width:19em;
+            /* margin-right: 50px; */
+            overflow: hidden;
+            background-size: 100% 100%,cover;
+        }
+        .cover{
+            width: 19em;
+            height:90px;
+            overflow: hidden;
+            background-size: 100% 100%,cover;
+    
+        }
+        .head{
+            margin-top: -1%;
+            justify-content: flex-start;
+            font-size: 15px;
+            width: 100%;
+            margin-left:10px;
+        }
+    }
+
+    @media (max-width: 905px){
+        .product_card{
+            
+            /* box-shadow: 1px 1px 1px 1px yellow; */
+           justify-content: center;
+           align-items: center;
+           margin-left: 10%;
+           
+           margin-right: 50%;
+        
+        width:17em;
+        }}
+        @media (max-width: 809px){
+            .product_card{
+                
+                /* box-shadow: 1px 1px 1px 1px yellow; */
+               justify-content: center;
+               align-items: center;
+               margin-left:25%;
+               
+               margin-right: 50%;
+            
+            width:22em;
+              
+    
+             
+            }
+        
+            .product_card_image{
+                width:22em;
+                height:85px;
+                /* margin-right: 50px; */
+                overflow: hidden;
+                background-size: 100% 100%,cover;
+            }
+            .cover{
+                width: 22em;
+                height:90px;
+                overflow: hidden;
+                background-size: 100% 100%,cover;
+    
+            }}
+            @media (max-width: 615px){
+                .product_card{
+                    
+                    /* box-shadow: 1px 1px 1px 1px yellow; */
+                   justify-content: center;
+                   align-items: center;
+                   margin-left:15%;
+                   
+                   margin-right: 50%;
+                
+                width:22em;
+                }}    
+                @media (max-width: 563px){
+                    .product_card{
+                        
+                        /* box-shadow: 1px 1px 1px 1px yellow; */
+                       justify-content: center;
+                       align-items: center;
+                       margin-left:12%;
+                       
+                       margin-right: 50%;
+                    
+                    width:22em;
+                    }}    
+                    @media (max-width: 541px){
+                        .product_card{
+                            
+                            /* box-shadow: 1px 1px 1px 1px yellow; */
+                           justify-content: center;
+                           align-items: center;
+                           margin-left:12%;
+                           
+                           margin-right: 50%;
+                        
+                        width:20em;
+                        }}    
+                        @media (max-width: 470px){
+                            .product_card{
+                                
+                                /* box-shadow: 1px 1px 1px 1px yellow; */
+                               justify-content: center;
+                               align-items: center;
+                               margin-left:12%;
+                               
+                               margin-right: 50%;
+                            
+                            width:17em;
+                            }}    
+     @media (max-width: 375px){
+        .product_card{
+            
+            /* box-shadow: 1px 1px 1px 1px yellow; */
+           justify-content: center;
+           align-items: center;
+           margin-left: 10%;
+           
+           margin-right: 50%;
+        
+        width:15em;
+          
+
+         
+        }
+        .product_card_image{
+            width:18em;
+            height:85px;
+            /* margin-right: 50px; */
+            overflow: hidden;
+            background-size: 100% 100%,cover;
+        }
+        .cover{
+            width: 18em;
+            height:85px;
+            overflow: hidden;
+            background-size: 100% 100%,cover;
+
+        }
+        .head{
+            margin-top: -1%;
+            justify-content: flex-start;
+            font-size: 15px;
+            width: 100%;
+            margin-left:5px;
+        }
+   }
+
+
+  
