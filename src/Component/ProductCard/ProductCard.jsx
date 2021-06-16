@@ -1,10 +1,26 @@
 import {connect} from 'react-redux'
 import './ProductCard.css';
 import { Link } from "react-router-dom";
-
+import { checkauthstatus } from '../../Redux/auth/authActions';
 import { addproduct } from '../../Redux/Cart/CartActions';
+import { clear } from '../../Redux/Product/ProductActions';
+import { useEffect } from 'react';
 
-const ProductCard=({addproduct,...product})=>{
+const ProductCard=({addproduct,user,checkauthstatus,...product})=>{
+    
+//     useEffect(async() => {
+//         //cdm
+//        await  checkauthstatus()
+      
+// return ()=>{
+// clear()
+// }
+//             },[])
+        const check=()=>{
+return(
+    alert("please sign in")
+)
+         }   
     var{quantity,cost,coverpic,id}=product;
     return(
 <>
@@ -23,7 +39,9 @@ const ProductCard=({addproduct,...product})=>{
              </div>
              </Link>
              <p className="head">{cost}</p><br/>
-             <button onClick={()=>addproduct(product)}>+</button>
+         {/* {user ?  <button onClick={()=>addproduct(product)}>+</button> : <button onClick={()=>check()} >+</button>}   */}
+          <button onClick={()=>addproduct(product)}>+</button>
+          
              {/* <br/>
              <br/> */}
              </div>
@@ -38,6 +56,11 @@ const ProductCard=({addproduct,...product})=>{
     )
 }
 var actions={
-    addproduct
+    addproduct,
+    checkauthstatus,
+    clear
 }
-export default connect(null,actions) (ProductCard);
+var mapState=(state)=>({
+    user:state.auth
+})
+export default connect(mapState,actions) (ProductCard);

@@ -148,7 +148,7 @@ export var signup=({Email,Password,Fullname})=> async(dispatch)=>{
                   }
               })
             } catch (error) {
-                console.log(error)
+                console.log("sign in to continue")
                 
             }
         }

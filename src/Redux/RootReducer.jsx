@@ -7,6 +7,7 @@ var RootReducer=combineReducers({
     
     products:ProductReducer,
     auth:authReducer,
-    cart:CartReducer
+    cart:CartReducer,
+    
 })
 export default RootReducer;

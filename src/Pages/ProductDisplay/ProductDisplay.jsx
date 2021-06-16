@@ -3,8 +3,8 @@ import './ProductDisplay.css';
 import img1 from './../../Images/burger3d.png';
 import img2 from './../../Images/shifting.jpg';
 import img3 from './../../Images/pizza.jpg';
-import img4 from './../../Images/shoes.jpg';
-import img5 from './../../Images/moving.jpg';
+import img4 from './../../Images/box.jpg';
+import img5 from './../../Images/shoes.jpg';
 import img6 from './../../Images/cor.jpg'
 import { connect } from 'react-redux';
 import { Link } from "react-router-dom";
@@ -25,7 +25,9 @@ const ProductDisplay=()=>{
         
         <>
 
-<h3>Our Products</h3>
+<p className="head"> PRODUCTS</p>
+<br/>
+<br/>
 <div className="container">
 <div  className="img1">
     <Link to={`/categoryproduct/${category}`}>
@@ -33,6 +35,8 @@ const ProductDisplay=()=>{
     </Link>
 </div>
 <div className="para1">
+    <h3 className="head2">Our Products</h3>
+    <br/>
 <p className="para">It is a long established fact that a reader will be distracted by the
      readable content of a page when looking at its layout. The point of
       using Lorem Ipsum is that it has a more-or-less normal distribution of 
@@ -46,6 +50,8 @@ const ProductDisplay=()=>{
 </div>
 
 <div className="para2">
+<h3 className="head2">Our Products</h3>
+    <br/>
     <p className="para">It is a long established fact that a reader will be distracted by the
      readable content of a page when looking at its layout. The point of
       using Lorem Ipsum is that it has a more-or-less normal distribution of 
@@ -56,6 +62,8 @@ const ProductDisplay=()=>{
     <img className="img" src={img3}/>
 </div>
 <div className="para3">
+<h3 className="head2">Our Products</h3>
+    <br/>
     <p className="para">It is a long established fact that a reader will be distracted by the
      readable content of a page when looking at its layout. The point of
       using Lorem Ipsum is that it has a more-or-less normal distribution of 
@@ -71,7 +79,9 @@ const ProductDisplay=()=>{
 <img className="img" src={img4}/>
 </div>
 <div className="p1">
-    <p>It is a long established fact that a reader will be distracted by the
+<h3 className="head2">Our Products</h3>
+    <br/>
+    <p className="para">It is a long established fact that a reader will be distracted by the
      readable content of a page when looking at its layout. The point of
       using Lorem Ipsum is that it has a more-or-less normal distribution of 
       letters, as opposed to using 'Content here,
@@ -82,7 +92,9 @@ const ProductDisplay=()=>{
 <img className="img" src={img5}/>
 </div>
 <div className="p2">
-    <p>It is a long established fact that a reader will be distracted by the
+<h3 className="head2">Our Products</h3>
+    <br/>
+    <p className="para">It is a long established fact that a reader will be distracted by the
      readable content of a page when looking at its layout. The point of
       using Lorem Ipsum is that it has a more-or-less normal distribution of 
       letters, as opposed to using 'Content here,
@@ -93,7 +105,9 @@ const ProductDisplay=()=>{
 <img className="img" src={img6}/>
 </div>
 <div className="p3">
-    <p>It is a long established fact that a reader will be distracted by the
+<h3 className="head2">Our Products</h3>
+    <br/>
+    <p className="para">It is a long established fact that a reader will be distracted by the
      readable content of a page when looking at its layout. The point of
       using Lorem Ipsum is that it has a more-or-less normal distribution of 
       letters, as opposed to using 'Content here,
@@ -101,7 +115,7 @@ const ProductDisplay=()=>{
 </div>
 </div>
 {/* { function show(){document.getElementById('cont').style.display='grid'}} */}
- {value===1 ? <button className="container2" onClick={()=> { setvalue=setvalue(2); document.getElementById('cont').style.display='grid'}}   >View more</button> :null}
+ {value===1 ? <button className="container2" onClick={()=> { setvalue=setvalue(2); document.getElementById('cont').style.display='grid'}}   >Learn more</button> :null}
 {/* {value==="hello"? <button className="container2" onClick={()=>document.getElementById('cont').style.display='block',setvalue=setvalue("hi")} >View more</button>:null} */}
 {/* {document.getElementById('cont').style.display==="none" ? <button onClick={()=>{document.getElementById('cont').style.display='grid'}}>view more</button>:null} */}
 

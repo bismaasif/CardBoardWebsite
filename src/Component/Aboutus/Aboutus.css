@@ -1,0 +1,93 @@
+.aboutus{
+    width:100vw;
+    height:40vh;
+   background-color :rgb(71, 94, 71);
+   display:grid;
+   grid-template-columns:100fr;
+   margin-top: 4%;
+
+   
+}
+.coverpic{
+    background-size: 100% 100%,cover;
+    width:100%;
+    height:100%;
+    opacity: 0.5;
+}
+.au{
+    position:relative;
+    margin-top: -12%;
+    color:white;
+    font-size: 50px;
+margin-left: 41%;
+justify-content: center;
+align-items: center;
+}
+
+.aboutus1{
+    display:grid;
+    height:80vh;
+    width:100vw;
+grid-template-columns: 10fr 30fr 40fr 10fr;
+grid-template-rows: 100fr ;
+grid-template-areas: ". col1 col2 ."
+                    ;
+                    
+/* background-color:rgb(185, 169, 169); */
+background-size: cover;
+}
+
+.paragraph{
+    grid-area: col1;
+margin-top: 40%;
+overflow: hidden;
+font-size: 20px;
+}
+.picture{
+    grid-area:col2;
+    
+    background-size: 100% 100%,cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+/* .slider{
+    display:grid;
+    height:40vh;
+    width:100vw;
+grid-template-columns: 10fr 50fr 10fr;
+grid-template-rows: 100fr ;
+grid-template-areas: ". col1 col2 ."
+                    ;
+                    
+/* background-color:rgb(185, 169, 169); */
+/* background-size: cover; */
+/* } */ 
+
+.aboutus2{
+    display:grid;
+    height:100vh;
+    width:100vw;
+grid-template-columns: 10fr 50fr 40fr 10fr;
+grid-template-rows: 100fr ;
+grid-template-areas: ". col1 col2 ."
+                    ;
+                    
+/* background-color:rgb(185, 169, 169); */
+background-size: cover;
+}
+
+.paragraph2{
+    grid-area: col2;
+    margin-top: 15%;
+overflow: hidden;
+font-size: 20px;
+}
+.picture2{
+    grid-area:col1;
+    
+    background-size:100% 100%,cover;
+        height: 100%;
+    width: 90%;
+    overflow: hidden;
+}

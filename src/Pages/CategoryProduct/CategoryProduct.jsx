@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { connect } from "react-redux";
 import ProductCard from "../../Component/ProductCard/ProductCard";
 import Category from "../Category/Category";
+import { Link } from "react-router-dom";
 import {fetchcategoryproduct,clear,fetchcategoryproduct1} from './../../Redux/Product/ProductActions';
 
 const CategoryProduct=({
@@ -43,7 +44,9 @@ fetchcategoryproduct1()
         <>
         <h3>categoryproducts</h3>
         {products.map((product)=> <ProductCard key={product.id} {...product} /> )}
-
+       <Link to="/cart">
+        <button >viiew cart</button>
+        </Link>
 
         </>
 
