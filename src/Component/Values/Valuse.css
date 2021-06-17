@@ -11,6 +11,12 @@ grid-template-areas: ". col1 col2 col3 col4 col5 ."
 background-size: cover;
 margin-top: 3%;
 }
+.heading{
+    font-size: 50px;
+    /* color: rgb(180, 172, 172); */
+    margin-left:42%;
+    color:rgb(63, 109, 67);
+}
 .v1{
     grid-area: col1;
     overflow:hidden;

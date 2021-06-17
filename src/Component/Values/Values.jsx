@@ -7,7 +7,7 @@ import img4 from './../../Images/v6.jpg';
 const Values=()=>{
     return( 
         <>
-        <p className="head">OUR VALUES</p>
+        <p className="heading">OUR VALUES</p>
         <div className="valcont">
 
 <div className="v1">
