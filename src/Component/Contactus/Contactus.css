@@ -1,0 +1,104 @@
+.contact
+{
+    display:grid;
+    height:70vh;
+    width:100vw;
+grid-template-columns: 5fr 40fr 40fr 5fr;
+grid-template-rows: 100fr ;
+grid-template-areas: ". col1 col2 ."
+                    ;
+                    
+/* background-color:rgb(185, 169, 169); */
+background-size: cover;
+margin-top: 3%;
+    background-color: grey;
+
+}
+.h1{
+    grid-area: col1;
+    font-size:40px;
+   color :rgb(71, 94, 71);
+   justify-content: center;
+   align-items: center;
+   display: grid;
+   margin-bottom: 60%;
+   overflow: hidden;
+}
+
+.h2{
+    grid-area: col2;
+    font-size:40px;
+   color :rgb(71, 94, 71);
+   justify-content: center;
+   align-items: center;
+   display: grid;
+   margin-bottom: 60%;
+   overflow: hidden;
+}
+.form{
+grid-area: col1;
+margin-left: 20%;
+margin-top:3%;
+overflow: hidden;
+}
+.map{
+    grid-area:col2;
+    overflow: hidden;
+    margin-top: 18%;
+    margin-left:18%;
+}
+.mappic{
+    height:60vh;
+}
+.input1{
+    grid-area:col1;
+    outline: none;
+    width:30%;
+    height:10%;
+    border-radius:5px ;
+    padding-left: 15px;
+    margin-top: 20%;
+    
+}
+.input2{
+    grid-area:col1;
+    outline: none;
+    width:30%;
+    height:10%;
+    border-radius:5px ;
+    padding-left: 15px;
+    margin-left: 10%;
+    
+}
+.input3{
+    grid-area:col1;
+    outline: none;
+    width:73%;
+    height:10%;
+    border-radius:5px ;
+    padding-left: 15px;
+}
+.input5{
+    grid-area:col1;
+    outline: none;
+    width:73%;
+    height:10%;
+    border-radius:5px ;
+    padding-left: 15px;
+}
+.input4{
+    grid-area:col1;
+    outline: none;
+    width:73%;
+    height:20%;
+    border-radius:5px ;
+    padding-left: 15px;
+}
+.btn{
+    background-color :rgb(71, 94, 71);
+    height:10%;
+    width: 25%;
+    color: white;
+    border-radius:7px;
+    margin-left: 25%;
+}
