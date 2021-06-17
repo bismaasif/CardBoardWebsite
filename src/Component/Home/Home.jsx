@@ -1,6 +1,7 @@
 import ProductDisplay from "../../Pages/ProductDisplay/ProductDisplay";
 import Authentication from '../../Pages/Authentication/Authentication';
 import Aboutus from "../Aboutus/Aboutus";
+import Values from "../Values/Values";
 
 const Home=()=>{
     return(
@@ -8,6 +9,7 @@ const Home=()=>{
 <Authentication/>
 <ProductDisplay/>
 <Aboutus/>
+<Values/>
             </>
             )
 }
