@@ -1,7 +1,7 @@
 .contact
 {
     display:grid;
-    height:70vh;
+    height:80vh;
     width:100vw;
 grid-template-columns: 5fr 40fr 40fr 5fr;
 grid-template-rows: 100fr ;
@@ -21,7 +21,7 @@ margin-top: 3%;
    justify-content: center;
    align-items: center;
    display: grid;
-   margin-bottom: 60%;
+   margin-bottom: 70%;
    overflow: hidden;
 }
 
@@ -32,7 +32,7 @@ margin-top: 3%;
    justify-content: center;
    align-items: center;
    display: grid;
-   margin-bottom: 60%;
+   margin-bottom: 70%;
    overflow: hidden;
 }
 .form{
