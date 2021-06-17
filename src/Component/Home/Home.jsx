@@ -3,15 +3,17 @@ import Authentication from '../../Pages/Authentication/Authentication';
 import Aboutus from "../Aboutus/Aboutus";
 import Values from "../Values/Values";
 import Contactus from "../Contactus/Contactus";
+import Footer from "../Footer/Footer";
 
 const Home=()=>{
     return(
         <>
-<Authentication/>
+
 <ProductDisplay/>
 <Aboutus/>
 <Values/>
 <Contactus/>
+<Footer/>
             </>
             )
 }

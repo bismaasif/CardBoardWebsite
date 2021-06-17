@@ -1,0 +1,40 @@
+.footer{
+    width:100vw;
+    height:40vh;
+   background-color :rgb(233, 240, 233);
+   display:grid;
+   grid-template-columns:30fr 25fr 20fr 30fr;
+   grid-template-rows: 100fr;
+   grid-template-areas: " col1 col2 col4 col3";
+
+}
+.address{
+grid-area: col1;
+margin-top: 8%;
+margin-left: 40%;
+}
+.directory{
+    grid-area: col2;
+    margin-top: 8%;
+    margin-left: 55%;
+   
+}
+.col1{
+    margin-top: 5%;
+    display: grid;
+    flex-direction: column;
+    
+
+}
+.col2{
+    grid-area:col4;
+    margin-top: 18%;
+    display: grid;
+    flex-direction: column;
+    margin-left: 0%;
+
+}
+.info{
+    grid-area:col3;
+    margin-top:8%;
+}
