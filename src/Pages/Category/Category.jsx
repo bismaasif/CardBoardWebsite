@@ -1,10 +1,9 @@
 import CategoryList from "../../Component/CategoryList/CategoryList";
-
-
+import CategoryProduct from "../CategoryProduct/CategoryProduct";
 const Category=()=>{
     return(
         <>
-        <CategoryList/>
+        <CategoryProduct/>
         </>
 
     )

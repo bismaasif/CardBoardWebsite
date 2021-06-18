@@ -8,6 +8,7 @@ import ProductDes from './Component/ProductDes/ProductDes';
 import Authentication from './Pages/Authentication/Authentication';
 import Cart from './Component/Cart/Cart';
 import Checkout from './Pages/Checkout/Checkout';
+import ProductPage from './Pages/ProductPage/ProductPage';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
       <Route path="/auth" component={Authentication} exact/>
       <Route path="/cart" component={Cart} exact/>
       <Route path="/checkout/:orderid" component={Checkout} exact/>
+      <Route path="/product" component={ProductPage} exact/>
+     
     </Switch>
     </>
 

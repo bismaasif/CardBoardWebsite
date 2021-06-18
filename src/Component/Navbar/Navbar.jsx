@@ -1,5 +1,6 @@
 import './Navbar.css';
 import DehazeIcon from '@material-ui/icons/Dehaze';
+import { Link } from 'react-router-dom';
 const Navbar=()=>{
 
       
@@ -17,14 +18,21 @@ const Navbar=()=>{
         <div className="navitemcontainer">
             <div className="navitem">
                 {/* <Link to="/"> */}
-                <h4 ><b>HOME</b></h4>
+
+                <h4 ><b>
+                    <Link to="/">
+                    HOME
+                    </Link>
+                    </b></h4>
                 {/* </Link> */}
                
                
                 </div>
             <div className="navitem">
                 {/* <Link to="/featuredres"> */}
+                <Link to="/product">
                 <h4>Products</h4>
+                </Link>
                 {/* </Link> */}
                 
                
