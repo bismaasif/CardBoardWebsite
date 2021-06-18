@@ -1,5 +1,7 @@
 .product_card{
-    width:27em;
+    width:25em;
+    
+    
     /* padding-left:2em;
     padding-right:2em; */
     /* border-radius:2em; */
@@ -9,7 +11,7 @@
     margin-top:1em;
     box-shadow: 2px 5px 5px 5px rgb(27, 26, 26);
     margin-top:6%;
- background-color:rgb(211, 178, 178);
+ background-color:rgb(190, 184, 184);
 
 
 }
@@ -35,7 +37,7 @@
     background-size: 100% 100%,cover;
     
 }
-.head{
+.headcost{
     align-items: flex-start;
     justify-content:flex-start;
     display:grid;
@@ -44,7 +46,7 @@
     /* border-radius: 2em; */
     color:white;
     align-self:flex-start;
-    font-size:20px;
+    font-size:16px;
     padding:3px;
     width: 100%;
     margin-left: 7px;

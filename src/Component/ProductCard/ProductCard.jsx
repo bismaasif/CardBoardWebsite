@@ -38,7 +38,7 @@ return(
 
              </div>
              </Link>
-             <p className="head">{cost}</p><br/>
+             <p className="headcost">{cost}</p><br/>
          {/* {user ?  <button onClick={()=>addproduct(product)}>+</button> : <button onClick={()=>check()} >+</button>}   */}
           <button onClick={()=>addproduct(product)}>+</button>
           

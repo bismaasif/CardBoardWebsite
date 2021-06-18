@@ -5,11 +5,13 @@ import Values from "../Values/Values";
 import Contactus from "../Contactus/Contactus";
 import Footer from "../Footer/Footer";
 import Navbar from "../Navbar/Navbar";
+import Cover from "../Cover/Cover";
 
 const Home=()=>{
     return(
         <>
 <Navbar/>
+<Cover/>
 <ProductDisplay/>
 <Aboutus/>
 <Values/>

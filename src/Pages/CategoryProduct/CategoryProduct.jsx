@@ -3,30 +3,36 @@ import { connect } from "react-redux";
 import ProductCard from "../../Component/ProductCard/ProductCard";
 import Category from "../Category/Category";
 import { Link } from "react-router-dom";
+import './CategoryProduct.css'
 import {fetchcategoryproduct,clear,fetchcategoryproduct1} from './../../Redux/Product/ProductActions';
 
 const CategoryProduct=({
-fetchcategoryproduct,clear,products,fetchcategoryproduct1} )=>{
-    const  [category,setcategory]=useState("");
+fetchcategoryproduct,clear,products,fetchcategoryproduct1,category} )=>{
+    
+    // const  [category,setcategory]=useState("pizza");
+    
     useEffect(() => {
         //cdm
         
-        const url=window.location.href;
-        const para=url.split("/");
-        setcategory(para[4])
-        // console.log(category)
+        // const url=window.location.href;
+        // const para=url.split("/");
+        // setcategory(para[4])
+        // // console.log(category)
         // console.log(para[4])
         
-    if(para[4]==="pizza"){
+    if(category==="pizza"){
          fetchcategoryproduct()
         }
-        if(para[4]==="shipping"){
-fetchcategoryproduct1()
-        }
+     else  if(category==="shipping"){
+         fetchcategoryproduct1();
     
-    return ()=>{
-    clear()
-    }
+        }
+        
+
+    
+    // return ()=>{
+    // clear()
+    // }
             },[])
             
           
@@ -42,11 +48,11 @@ fetchcategoryproduct1()
     return(
         
         <>
-        <h3>categoryproducts</h3>
+        {/* <h3>categoryproducts</h3> */}
+        <div className="display">
         {products.map((product)=> <ProductCard key={product.id} {...product} /> )}
-       <Link to="/cart">
-        <button >viiew cart</button>
-        </Link>
+        </div>
+       
 
         </>
 
