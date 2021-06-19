@@ -1,6 +1,8 @@
 import {fetchspecificproduct,clear} from './../../Redux/Product/ProductActions';
 import { connect } from 'react-redux';
 import { useState,useEffect } from 'react';
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 import ProductDesCard from '../ProductDesCard/ProductDesCard';
 
 const ProductDes=({fetchspecificproduct,clear})=>{
@@ -26,8 +28,10 @@ const ProductDes=({fetchspecificproduct,clear})=>{
 
         
         <>
+<Navbar/>
 <h3>Product Description</h3>
 <ProductDesCard {...product}/>
+<Footer/>
 
 
 

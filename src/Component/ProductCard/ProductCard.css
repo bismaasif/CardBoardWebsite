@@ -14,6 +14,7 @@
  background-color:rgb(190, 184, 184);
 
 
+
 }
 .product_card_image{
     width:28em;
@@ -30,12 +31,30 @@
     overflow:hidden;
  
 }
+.add{
+    background-color:rgb(190, 184, 184);
+    margin-left: 70%;
+    margin-top:-12%;
+    margin-bottom: 1%;
+
+}
 .cover{
     width:28em;
     height:14em;
     overflow: hidden;
     background-size: 100% 100%,cover;
     
+}
+.headcost1{
+    align-items: flex-start;
+    justify-content:flex-start;
+    display:grid;
+    align-self:flex-start;
+    font-size:16px;
+    
+    width: 100%;
+    margin-left: 10px;
+    color: rgb(17, 16, 16);
 }
 .headcost{
     align-items: flex-start;
@@ -44,7 +63,7 @@
     margin-top: -1%;
     /* background:rgb(156, 44, 57); */
     /* border-radius: 2em; */
-    color:white;
+    color:rgb(26, 24, 24);
     align-self:flex-start;
     font-size:16px;
     padding:3px;

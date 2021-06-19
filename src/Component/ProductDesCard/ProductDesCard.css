@@ -1,0 +1,97 @@
+.des{
+    display:grid;
+    height:80vh;
+    width:100vw;
+    grid-template-columns:13fr 15fr 50fr 40fr 5fr;
+    grid-template-rows:33fr 33fr 33fr;
+    grid-template-areas: ". col1 col2 col3 ."
+                        ". col4 col2 col3 ."
+                        ". col5 col2 col3 .";
+         margin-top: 7%;
+     overflow: hidden;
+     margin-bottom: 12%;           
+
+}
+.d1{
+    grid-area: col1;
+    background-color: rgb(114, 55, 55);
+    overflow: hidden;
+}
+.d2{
+    grid-area: col2;
+    background-color: rgb(87, 46, 46);
+    overflow: hidden;
+    
+}
+.d3{
+    grid-area: col3;
+    color: black;
+    margin-left: 7%;
+    margin-top: 10%;
+}
+.d4{
+    grid-area: col4;
+    overflow: hidden;
+   
+}
+.d5{
+    grid-area: col5;
+    overflow: hidden;
+    background-color: rgb(207, 106, 106);
+}
+.d2image{
+    height: 100%;
+    width: 100%;
+    background-size:100% 100%,cover;
+    overflow: hidden;
+   
+}
+.zoom{
+    background-color: rgb(251, 253, 246);
+    position: absolute;
+    margin-top: 36%;
+    margin-left:35%;
+    cursor: pointer;
+
+}
+/* .quantity1{
+    margin-top: 15%;
+} */
+.updown{
+    
+    overflow: hidden;
+    grid-area: col3;
+    background: white;
+    /* margin-left: 25%; */
+    
+    
+    
+}
+/* .q{
+    display:grid;
+    flex-flow: column;
+    grid-area: col3;
+    background-color: blueviolet;
+    
+
+} */
+.quantity1{
+    /* margin-left: 19%;
+    margin-top:10% */
+}
+.r{
+    display:grid;
+    flex-flow: row;
+}
+.ok{
+    margin-left: 30%;
+}
+.ok1{margin-left: 6%;}
+.btncart{
+    height: 6vh;
+    width:10vw;
+    background-color:rgb(63, 109, 67);
+    color: rgb(252, 248, 248);
+    margin-top: 6%;
+    border-radius:5px;
+}

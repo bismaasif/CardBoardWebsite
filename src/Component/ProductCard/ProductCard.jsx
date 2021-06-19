@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { checkauthstatus } from '../../Redux/auth/authActions';
 import { addproduct } from '../../Redux/Cart/CartActions';
 import { clear } from '../../Redux/Product/ProductActions';
+import AddCircleOutlineIcon from '@material-ui/icons/AddCircleOutline';
 import { useEffect } from 'react';
 
 const ProductCard=({addproduct,user,checkauthstatus,...product})=>{
@@ -21,7 +22,7 @@ return(
     alert("please sign in")
 )
          }   
-    var{quantity,cost,coverpic,id}=product;
+    var{quantity,cost,coverpic,id,title}=product;
     return(
 <>
 <div style={{fontSize:"62.5%"}}>
@@ -38,9 +39,10 @@ return(
 
              </div>
              </Link>
-             <p className="headcost">{cost}</p><br/>
+             <p className="headcost"><b>{title}</b></p>
+             <p className="headcost1">${cost}</p>
          {/* {user ?  <button onClick={()=>addproduct(product)}>+</button> : <button onClick={()=>check()} >+</button>}   */}
-          <button onClick={()=>addproduct(product)}>+</button>
+          <button className="add" onClick={()=>addproduct(product)}><AddCircleOutlineIcon fontSize="large"/></button>
           
              {/* <br/>
              <br/> */}

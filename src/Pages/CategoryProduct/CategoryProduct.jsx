@@ -8,7 +8,7 @@ import {fetchcategoryproduct,clear,fetchcategoryproduct1} from './../../Redux/Pr
 
 const CategoryProduct=({
 fetchcategoryproduct,clear,products,fetchcategoryproduct1,category} )=>{
-    
+    console.log(products)
     // const  [category,setcategory]=useState("pizza");
     
     useEffect(() => {
@@ -30,9 +30,9 @@ fetchcategoryproduct,clear,products,fetchcategoryproduct1,category} )=>{
         
 
     
-    // return ()=>{
-    // clear()
-    // }
+    return ()=>{
+    clear()
+    }
             },[])
             
           
