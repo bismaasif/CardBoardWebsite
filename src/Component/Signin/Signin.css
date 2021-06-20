@@ -1,0 +1,42 @@
+.field1{
+    outline: none;
+    width:60%;
+    height:40px;
+    /* margin-left:20%; */
+    padding-left: 15px;
+    margin-top: 4%;
+    background-color: rgb(71, 94, 71);;
+
+
+}
+.field2{
+    outline: none;
+    width:60%;
+    /* margin-left: 20%; */
+    height:40px;
+    color:white;
+    padding-left: 15px;
+    margin-top:4%;
+    background-color: rgb(71, 94, 71);
+    margin-bottom: 2%;
+}
+.txt{
+    /* margin-left: 20%; */
+}
+.welcome{
+    font-size: 40px;
+    color:rgb(71, 94, 71);
+    
+
+
+}
+.field3{
+    background-color :rgb(71, 94, 71);
+    height:40px;
+    width: 20%;
+    color:white;
+    margin-top: 3%;
+    color: white;
+    /* border-radius:7px; */
+    margin-left: 20%;
+}

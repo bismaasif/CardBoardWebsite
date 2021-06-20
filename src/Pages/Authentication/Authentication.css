@@ -1,0 +1,24 @@
+.auth{
+    display:grid;
+    width: 100vw;
+    height:100vh;
+    grid-template-columns:60fr 40fr;
+    overflow: hidden;
+    grid-template-areas: " col1 col2 ";
+    margin-top: 5%;
+}
+.signup{
+    grid-area: col1;
+    background-color: rgb(7, 59, 42);
+    height:100%;
+    width: 100%;
+   
+}
+.signin{
+    grid-area: col2;
+    background-color: rgb(252, 251, 249);
+    height:100%;
+    width: 100%;
+    margin-top: 25%;
+    margin-left: 15%;
+}
