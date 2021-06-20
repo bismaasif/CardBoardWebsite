@@ -47,9 +47,9 @@ const Navbar=()=>{
 
                 <div className="navitem">
                 
-               {/* < Link to="/howtouse">  */}
+               < Link to="/auth"> 
                <h4>Log In</h4>
-               {/* </Link> */}
+               </Link>
                
                 </div>
                 <div class="check">
