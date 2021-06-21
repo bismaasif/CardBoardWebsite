@@ -1,0 +1,62 @@
+.carbox{
+    border: 1px solid black;
+    width:70%;
+    height:80px;
+    margin-bottom: 1%;
+    margin-left:10%;
+    overflow:hidden;
+}
+.carbox:hover{
+    background-color: rgb(224, 217, 217);
+}
+.displaypic{
+    width:10%;
+    height:70px;
+    background-color: aquamarine;
+    margin-top: 5px;
+    margin-left:5px;
+    overflow:hidden;
+}
+.fit{
+    background-size: 100% 100%,cover;
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+}
+.displaytext{
+   margin-top: -7%;
+    margin-left: 15%;
+    color: black;
+    font-size: 27px;
+}
+.left{
+    margin-left: 15%;
+
+}
+.qbox{
+    background-color: aquamarine;
+    height: 40px;
+    width: 7%;
+    margin-top: -5%;
+    margin-left: 66%;
+    /* flex-flow: row;
+    display: flex; */
+    overflow: hidden;
+    
+}
+.displaycost{
+    margin-top: -4%;
+    margin-left: 80%;
+}
+.dq{
+    margin-top:10%;
+    margin-left:5%;
+  
+
+}
+.dq1{
+    margin-top:-40%;
+    margin-left:60%;
+    display: grid;
+    flex-flow: row;
+}
