@@ -71,7 +71,7 @@ const ProductPage=()=>{
                 </button>
                 <button>
                     <Link to="/cart">
-                    <ShoppingCartOutlinedIcon/>
+                    <ShoppingCartOutlinedIcon className="icon"/>
                     </Link>
                 </button>
                 <button>
