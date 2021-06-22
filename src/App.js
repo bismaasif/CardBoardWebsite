@@ -9,6 +9,7 @@ import Authentication from './Pages/Authentication/Authentication';
 import Cart from './Component/Cart/Cart';
 import Checkout from './Pages/Checkout/Checkout';
 import ProductPage from './Pages/ProductPage/ProductPage';
+import Designbox from './Component/Designbox/Designbox';
 
 function App() {
   return (
@@ -20,8 +21,9 @@ function App() {
       <Route path="/productdes/:id" component={ProductDes} exact/>
       <Route path="/auth" component={Authentication} exact/>
       <Route path="/cart" component={Cart} exact/>
-      <Route path="/checkout/:orderid" component={Checkout} exact/>
+      <Route path="/checkout/123" component={Checkout} exact/>
       <Route path="/product" component={ProductPage} exact/>
+      <Route path="/design" component={Designbox} exact/>
      
     </Switch>
     </>

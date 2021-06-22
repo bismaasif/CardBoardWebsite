@@ -87,7 +87,7 @@ const Signup=({signup})=>{
            <br/>
             <input className="plain3" value={Password} onChange={(e)=> setPassword(e.target.value)} type="text" placeholder="New Password"/>
            <br/>
-           <p className="bd">Birthday</p>
+           <p className="bdo">Birthday</p>
            <br/>
            <div className="f1">
            <TextField 

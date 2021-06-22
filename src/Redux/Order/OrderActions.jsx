@@ -1,10 +1,12 @@
 import { firestore, serverTimestamp } from "../../firebase/firebase";
 import history from "../../History/History";
+import { v4 as uid} from 'uuid';
+import { Set_order } from "./OrderConstants";
 
 export var OrderGenerator=()=>async(dispatch,getState)=>{
     try {
         var {auth,cart:product}=getState();
-        // console.log(products)
+    
         var orderinfo={
             ...auth,
             product,
@@ -20,6 +22,8 @@ export var OrderGenerator=()=>async(dispatch,getState)=>{
        //...
        // var state=getState();
        // console.log(state);
+      
+       
     } catch (error) {
         console.log(error)
     }
