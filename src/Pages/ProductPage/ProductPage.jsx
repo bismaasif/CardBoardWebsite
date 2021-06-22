@@ -70,6 +70,7 @@ const ProductPage=()=>{
 <FavoriteBorderOutlinedIcon/>
                 </button>
                 <button>
+                    
                     <Link to="/cart">
                     <ShoppingCartOutlinedIcon className="icon"/>
                     </Link>
