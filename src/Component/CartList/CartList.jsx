@@ -1,5 +1,6 @@
 import {connect} from "react-redux";
 import CartListItem from "../CartListItem/CartListItem";
+import Designbox from "../Designbox/Designbox";
 import './CartList.css'
 
 const CartList=({itemlist})=>{
@@ -9,7 +10,10 @@ const CartList=({itemlist})=>{
 <div className="box">
 {itemlist.map((item)=><CartListItem key={item.id} {...item}/>)}
 </div>
+
+
         </>
+        
         )
 }
 var mapState=(state)=>({

@@ -11,7 +11,8 @@ import { Link } from "react-router-dom";
 import './Cart.css';
 
 
-const Cart=({OrderGenerator,total})=>{
+const Cart=({OrderGenerator,total,id})=>{
+    
     return(
         <>
         <Navbar/>
@@ -23,7 +24,9 @@ const Cart=({OrderGenerator,total})=>{
         <div className="cartbox">
         <p className="stotal">SubTotal</p>  <h3 className="totalcost">${total}</h3>
         </div>
-<button className="checkoutbtn" onClick={OrderGenerator} >Checkout</button>
+        <Link to="/checkout/123">
+<button className="checkoutbtn" >Checkout</button>
+</Link>
 </div>
 <Footer/>
         </>
@@ -33,6 +36,7 @@ var actions={
     OrderGenerator
 }
 var mapState=(state)=>({
-    total: CartTotal(state.cart)
+    total: CartTotal(state.cart),
+    
 })
 export default connect(mapState,actions)(Cart);
