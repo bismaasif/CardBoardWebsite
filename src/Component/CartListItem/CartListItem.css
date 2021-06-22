@@ -3,7 +3,7 @@
     width:70%;
     height:80px;
     margin-bottom: 1%;
-    margin-left:10%;
+    margin-left:15%;
     overflow:hidden;
 }
 .carbox:hover{
@@ -34,7 +34,7 @@
 
 }
 .qbox{
-    background-color: aquamarine;
+    background-color: rgb(238, 245, 243);
     height: 40px;
     width: 7%;
     margin-top: -5%;
@@ -50,7 +50,7 @@
 }
 .dq{
     margin-top:10%;
-    margin-left:5%;
+    margin-left:20%;
   
 
 }
@@ -59,4 +59,5 @@
     margin-left:60%;
     display: grid;
     flex-flow: row;
+    cursor: pointer;
 }
