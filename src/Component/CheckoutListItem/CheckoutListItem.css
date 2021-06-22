@@ -1,0 +1,139 @@
+.checkoutbox1{
+    display: grid;
+  height:140vh;
+  width: 100vw;
+    grid-template-columns: 5fr 60fr 30fr 5fr;
+    
+    grid-template-areas: ". col1 col2 .";
+    background-color: rgb(231, 224, 224);
+    overflow: hidden;
+    margin-bottom: 8%;
+}
+.userinfo{
+    grid-area: col1;
+    background-color: rgb(231, 224, 224);
+    
+    
+}
+.allproducts{
+    grid-area: col2;
+    background-color: rgb(231, 224, 224);
+    color: black;
+    
+}
+.checkform{
+    margin-top:9%;
+    margin-left: 4%;
+    margin-bottom: 3%;
+}
+.checkinput1{
+    height:35px;
+    width:50%;
+    margin-left: 15%;
+    padding-left: 2%;
+
+}
+.checkinput4{
+    height:35px;
+    width:50%;
+    margin-left: 13%;
+    padding-left: 2%;
+}
+.checkinput5{
+    height:35px;
+    width:50%;
+    margin-left: 14.5%;
+    padding-left: 2%
+    ;}
+
+
+.checkinput3{
+    height:35px;
+    width:50%;
+    margin-left: 15.5%;
+    padding-left: 2%;
+
+
+}
+.nm{
+    margin-top: 6%;
+}
+.deta{
+    margin-bottom: 4%;
+    font-size: 40px;
+    
+}
+.save{
+    margin-left: 4%;
+    margin-bottom: 2%;
+}
+.payment{
+    margin-left: 4%;
+    margin-bottom:1%;
+}
+.ordero{
+    display: flex;
+    flex-flow: row;
+    margin-bottom:4%
+}
+.debit{
+    margin-left: 10%;
+
+}
+.cash{
+    margin-left: 4%;
+}
+.checkbtn{
+    margin-left:4%;
+    height:35px;
+    width:15%;
+    background-color: rgb(46, 78, 36);
+    color:white;
+    margin-bottom: 6%;
+
+}
+.debitinfo{
+    margin-left: 4%;
+    margin-bottom: 3%;
+}
+.checkinputa{
+    margin-left:8%;
+    height: 30px;
+    padding-left: 4px;
+}
+.checkinputb{
+    margin-left:3.5%;
+    height: 30px;
+    padding-left: 4px;
+}
+.checkinputc{
+    margin-left:6%;
+    height: 30px;
+    padding-left: 4px;
+}
+.checkinputd{
+    margin-left:16%;
+    height: 30px;
+    padding-left: 4px;
+}
+.bd{
+    border: 2px solid black;
+    height: 50%;
+    background-color: #fff;
+    width: 80%;
+    margin-top:20%;
+    margin-left:10%;
+    
+}
+.bd1{ border: 2px solid black;
+    height: 6%;
+    background-color: #fff;
+    width: 80%;
+   margin-top:5%;
+    margin-left:10%;
+
+}
+.ordercost{
+    margin-left:45%;
+    margin-top:3%;
+}
