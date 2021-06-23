@@ -1,6 +1,7 @@
 import { connect } from "react-redux";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
+import { Link } from "react-router-dom";
 import { addproduct,removeproduct } from "../../Redux/Cart/CartActions";
 import './CheckoutListItem.css';
 import CartList from "../CartList/CartList";
@@ -57,7 +58,9 @@ CVV<input className="checkinputd" type="text" placeholder="Number"/>
 <br/>
 <br/>
 </div>:null}
+<Link to="/Orderplaced">
 <button className="checkbtn" >PLACE ORDER</button>
+</Link>
 </div>
 
 <div className="allproducts">
