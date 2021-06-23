@@ -1,0 +1,125 @@
+.profileinfo{
+    height:50vh;
+    width:100vw;
+    background-color: rgb(54, 77, 33);
+    display: grid;
+    grid-template-columns: 5fr 15fr 20fr 30fr 5fr;
+    grid-template-rows: 100fr;
+    grid-template-areas: ". col1 col2 col3 .";
+}
+.circle11{
+    grid-area: col1;
+    /* background-color: aquamarine; */
+    
+    
+}
+.imagec{
+    height: 55%;
+margin-top: 40%;
+    width:70%;
+    /* background-color: #fff; */
+    margin-left: 15%;
+    border-radius: 90px;
+    overflow: hidden;
+}
+.imagecfit{
+    background-size: 100% 100%,cover;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.nameinfo{
+    grid-area: col2;
+   color:rgb(179, 173, 173);
+    /* background-color: #fff; */
+}
+.pinfo{
+    margin-top: 38%;
+    line-height: 3;
+    margin-left: 9%;
+}
+.pinfo1{
+    margin-left: 9%;
+}
+.btn1{
+    margin-top:6%;
+    margin-right:4%;
+    height:35px;
+    width:38%;
+    color: rgb(40, 95, 40);
+    background-color:rgb(185, 192, 185) ;
+    margin-left: 8%;
+}
+.btn2{
+    
+    height:35px;
+    width:29%;
+    color: rgb(40, 95, 40);
+    background-color:rgb(185, 192, 185) ;
+    
+
+}
+.emailinfo{
+    grid-area: col3;
+}
+.pinfo2{
+    margin-top: 25%;
+    line-height: 3;
+    margin-left: 30%;
+    color:rgb(129, 143, 129) ;
+}
+.pinfo3{
+    margin-left: 30%;
+    color:rgb(129, 143, 129) ;
+}
+.cartsinfo{
+    margin-top: 1%;
+    height: 30vh;
+    border: 1px solid black;
+    width:70%;
+    margin-bottom: 4%;
+    /* background-color: rgb(61, 39, 39); */
+    margin-left: 14%;
+    padding-top: 2%;
+    padding-left: 3%;
+}
+.cartsinfo1{
+    margin-top: 1%;
+    height: 30vh;
+    border: 1px solid black;
+    width:70%;
+    margin-bottom: 4%;
+    /* background-color: rgb(61, 39, 39); */
+    margin-left: 14%;
+    padding-left: 3%;
+    line-height:-1;
+    padding-top: 2%;
+   
+}
+.cartsinfo2{
+    margin-top: 0%;
+    height: 40vh;
+    /* border: 1px solid black; */
+    width:90%;
+    margin-bottom: 4%;
+    /* background-color: rgb(61, 39, 39); */
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    overflow: hidden;
+
+    
+}
+
+.back{
+    margin-top:-14%;
+    position: absolute;
+    margin-left:3%
+}
+.front{
+    margin-top:-14%;
+    position: absolute;
+    margin-left: 96%;
+}
+
+
