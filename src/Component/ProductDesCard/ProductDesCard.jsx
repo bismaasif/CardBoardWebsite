@@ -27,8 +27,8 @@ import { useState } from "react";
   <ZoomInIcon fontSize="large"/>
 </button>
 {img==="first" ? <img src={img3} className="d2image"/>:null}
-{img==="second" ? <img src={img4} className="d2image"/>:null}
-{img==="third" ? <img src={img5} className="d2image"/>:null}
+{img==="second" ? <img src={img5} className="d2image"/>:null}
+{img==="third" ? <img src={img4} className="d2image"/>:null}
 
 </div>
 <div className="d3">

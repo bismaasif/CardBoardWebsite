@@ -85,7 +85,7 @@ const ProductPage=()=>{
     
  {category==="pizza" ?  <CategoryProduct category="pizza"/> :null}
  {category==="shipping" ?  <CategoryProduct category="shipping"/> :null}
-
+ <hr className="line"/>
    <Footer/>
 
       </>
