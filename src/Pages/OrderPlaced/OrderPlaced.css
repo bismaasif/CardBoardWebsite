@@ -1,0 +1,38 @@
+.order-placed{
+    height:70vh;
+    width: 70vw;
+    display:grid;
+    background-color: rgb(71, 94, 71);
+    margin-bottom: 2%;
+    margin-top: 8%;
+    margin-left: 15%;
+    overflow: hidden;
+}
+.continue{
+    height: 44px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(12, 46, 8);
+    color: rgb(241, 247, 244);
+    margin-left: 15%;
+    margin-bottom:6%;
+font-size: 20px;
+}
+.tan{
+    display: grid;
+    justify-content: center;
+    /* align-items: center; */
+    color: white;
+    margin-top: 8%;
+    font-size: 37px;
+}
+.pgraph{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+  color:white;
+  margin-top: -30%;
+  line-height: 2;
+  
+}
