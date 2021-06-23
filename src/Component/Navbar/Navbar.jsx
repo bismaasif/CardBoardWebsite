@@ -8,12 +8,12 @@ const Navbar=()=>{
         <>
 
 <div className="Navbar">
-        <div className="logo">
+        {/* <div className="logo">
             
             <p>CardBoardWebsite</p> 
            
         
-        </div>
+        </div> */}
        
         <div className="navitemcontainer">
             <div className="navitem">
@@ -38,9 +38,9 @@ const Navbar=()=>{
                
                 </div>
                 <div className="navitem">
-                {/* <Link to="/buynow"> */}
+                <Link to="/profile">
                 <h4>Profile</h4>
-                {/* </Link> */}
+                </Link>
                 
                
                 </div>
@@ -50,11 +50,18 @@ const Navbar=()=>{
                < Link to="/auth"> 
                <h4>Log In</h4>
                </Link>
-               
+              
                 </div>
+               
                 <div class="check">
             <DehazeIcon/>
             </div>
+        </div>
+        <div className="logo">
+            
+            <p>CardBoardWebsite</p> 
+           
+        
         </div>
         
         </div>
