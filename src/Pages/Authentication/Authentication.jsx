@@ -19,6 +19,7 @@ const Authentication=()=>{
 <Signin/>
 </div>
 </div>
+<hr className="line"/>
 
        <Footer/>
       
