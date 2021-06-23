@@ -10,6 +10,8 @@ import Cart from './Component/Cart/Cart';
 import Checkout from './Pages/Checkout/Checkout';
 import ProductPage from './Pages/ProductPage/ProductPage';
 import Designbox from './Component/Designbox/Designbox';
+import OrderPlaced from './Pages/OrderPlaced/OrderPlaced';
+import Profile from './Pages/Profile/Profile';
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
       <Route path="/checkout/123" component={Checkout} exact/>
       <Route path="/product" component={ProductPage} exact/>
       <Route path="/design" component={Designbox} exact/>
+      <Route path="/Orderplaced" component={OrderPlaced} exact/>
+      <Route path="/profile" component={Profile} exact/>
      
     </Switch>
     </>
