@@ -1,6 +1,7 @@
 import Navbar from "../../Component/Navbar/Navbar";
 import Footer from "../../Component/Footer/Footer";
 import img5 from './../../Images/pp.jpg';
+import img from './../../Images/shoes.jpg';
 import Cart from "../../Component/CartListItem/CartListItem";
 import ShoppingCartOutlinedIcon from '@material-ui/icons/ShoppingCartOutlined';
 import './Profile.css';
@@ -61,7 +62,7 @@ const Profile=({fetchcategoryproduct,
       <div className="cartsinfo">
      
       <div className="displaypic">
-<img className="fit" src={img5}/>
+<img className="fit" src={img}/>
             </div>
  <h3 className="displaytext">Pizza Box</h3>
  <p className="left">Lorem ipsum lorem ipsum lorem ipsum</p>
@@ -75,7 +76,7 @@ const Profile=({fetchcategoryproduct,
     <h2>$-568</h2>
  </div><br/>
  <div className="displaypic">
-<img className="fit" src={img5}/>
+<img className="fit" src={img}/>
             </div>
  <h3 className="displaytext">Pizza Box</h3>
  <p className="left">Lorem ipsum lorem ipsum lorem ipsum</p>
@@ -93,7 +94,7 @@ const Profile=({fetchcategoryproduct,
       <div className="cartsinfo1">
      
             <div className="displaypic">
-<img className="fit" src={img5}/>
+<img className="fit" src={img}/>
             </div>
  <h3 className="displaytext">Pizza Box</h3>
  <p className="left">Lorem ipsum lorem ipsum lorem ipsum</p>
@@ -107,7 +108,7 @@ const Profile=({fetchcategoryproduct,
     <h2>$-568</h2>
  </div><br/>
  <div className="displaypic">
-<img className="fit" src={img5}/>
+<img className="fit" src={img}/>
             </div>
  <h3 className="displaytext">Pizza Box</h3>
  <p className="left">Lorem ipsum lorem ipsum lorem ipsum</p>
