@@ -12,6 +12,7 @@ import ProductPage from './Pages/ProductPage/ProductPage';
 import Designbox from './Component/Designbox/Designbox';
 import OrderPlaced from './Pages/OrderPlaced/OrderPlaced';
 import Profile from './Pages/Profile/Profile';
+import ChangeDetail from './Pages/ChangeDetails/ChangeDetail';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <Route path="/design" component={Designbox} exact/>
       <Route path="/Orderplaced" component={OrderPlaced} exact/>
       <Route path="/profile" component={Profile} exact/>
+      <Route path="/changedetail" component={ChangeDetail} exact/>
      
     </Switch>
     </>
