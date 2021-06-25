@@ -5,7 +5,14 @@ import TextField from '@material-ui/core/TextField';
 import MenuItem from '@material-ui/core/MenuItem';
 import './Signup.css'
 const Signup=({signup})=>{
-    const [currency, setCurrency] = React.useState('EUR');
+  const [currency, setCurrency] = React.useState('EUR');
+  const [head,sethead]=useState("");
+   const url=window.location.href;
+        const para=url.split("/");
+        
+        // console.log(category)
+        console.log(para[3])
+    
 
     const handleChange = (event) => {
       setCurrency(event.target.value);
@@ -79,11 +86,12 @@ const Signup=({signup})=>{
     return(
         
         <>
-        <p className="he"><b>Register Now</b></p>
+        {para[3]==="auth"?<p className="he"><b>Register Now</b></p>:<p className="he"><b>CHANGE PERSONAL DETAILS</b></p>}
+        {/* <p className="he"><b>Register Now</b></p> */}
         <form onSubmit={formsubmit}>
-            <input className="plain1" value={Fullname} onChange={(e)=> setFullname(e.target.value)} type="text" placeholder="First Name"/> <input className="plain11" type="text" placeholder="Last Name"/>
+          <input className="plain1" value={Fullname} onChange={(e)=> setFullname(e.target.value)} type="text" placeholder="First Name"/> <input className="plain11" type="text" placeholder="Last Name"/>
             <br/>
-            <input className="plain2" value={Email} onChange={(e)=> setEmail(e.target.value)} type="text" placeholder="Email"/>
+           <input className="plain2" value={Email} onChange={(e)=> setEmail(e.target.value)} type="text" placeholder="Email"/>
            <br/>
             <input className="plain3" value={Password} onChange={(e)=> setPassword(e.target.value)} type="text" placeholder="New Password"/>
            <br/>
@@ -156,7 +164,7 @@ const Signup=({signup})=>{
        Provides context such as filled/focused/error/required for form 
          the children of the
          FormControl.</p>
-            <button className="text4" type="submit">CREATE ACCOUNT</button>
+         {para[3]==="auth"? <button className="text4" type="submit">CREATE ACCOUNT</button>: <button className="text4" type="submit">SAVE CHANGES</button>}
         </form>
         </>
     )
