@@ -1,7 +1,7 @@
 import {combineReducers} from 'redux'
 import authReducer from './auth/authReducer';
 import CartReducer from './Cart/CartReducer';
-import OrderReducer from './Order/OrderReducer';
+// import OrderReducer from './Order/OrderReducer';
 
 import ProductReducer from './Product/ProductReducer';
 var RootReducer=combineReducers({
