@@ -15,6 +15,7 @@ import ExpandLessIcon from '@material-ui/icons/ExpandLess';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import FavoriteBorderOutlinedIcon from '@material-ui/icons/FavoriteBorderOutlined';
 import { connect } from "react-redux";
+import { Link } from "react-router-dom";
 
 const Profile=({fetchcategoryproduct,
     clear,products})=>{
@@ -51,7 +52,8 @@ const Profile=({fetchcategoryproduct,
 <div className="nameinfo">
     <p className="pinfo"><b>Name :</b> Bisma Asif</p>
     <p className="pinfo1"><b>Phone :</b> +923322150555</p>
-<button className="btn1">CHANGE DETAILS</button> <button className="btn2">LOG OUT</button>
+    <Link to="/changedetail">
+<button className="btn1">CHANGE DETAILS</button></Link> <button className="btn2">LOG OUT</button>
 </div>
 <div className="emailinfo">
 <p className="pinfo2"><b>Email :</b> Bisma.asif@yahoo.com</p>
